@@ -1,0 +1,250 @@
+body {
+	font-family: 'Open Sans';
+  
+}
+
+/*  enabled when use background video
+html, body {
+  height: 100%;
+}
+*/
+
+header {
+  display: block;
+  position: relative;
+  width: auto;
+  height: auto;
+  padding: 20px 0; 
+  min-height: 100%;
+  background: no-repeat center center;
+  background-attachment: fixed;
+  background-color: #222;
+  background-size: cover;
+}
+
+.navbar{
+  margin-bottom: 0px;
+  padding: 20px 20px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #E2DEDE;
+}
+.navbar-right {
+  margin-right: 20x;
+}
+
+.navbar img {
+  width: 80%;
+  max-height: 50px;
+}
+.cbp-af-header-shrink{
+  padding-top: 2px;
+  padding-bottom: 2px;
+  opacity: 0.9;
+}
+.img-responsive {
+  max-width: 100%;
+  height:auto;
+  box-shadow: rgba(0,0,0,0.5) 10px 10px 10px;
+}
+.fill-screen {
+  background-size: cover;
+  background-position: center;
+}
+.title-row {
+  position: relative;
+  min-height: 300px;
+}
+.title-image {
+  position: absolute;
+  padding: 20px;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+.down-button {
+  position: absolute;
+  bottom: 70px;
+  width: 100%;
+  text-align: center;
+}
+.down-button i {
+  color: white;
+}
+.fixed-attachment{
+  background-attachment: fixed;
+}
+
+.text-banner {
+  text-align: center;
+  margin: 40px 20px;
+}
+.text-banner p{
+  font-size: 15px;
+}
+.factions {
+  margin: 50px;
+}
+.faction-icon {
+  text-align: center;
+}
+.faction-icon img {
+  width: 150px;
+  height: 150px;
+}
+.faction-icon p {
+  padding: 10px 50px;
+  font-size: 15px;
+}
+.contact-us {
+  margin: 50px;
+  text-align: center;
+  font-size: 15px;
+}
+#carousel {
+  margin: 40px 0px;
+}
+#carousel img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 1024px) {
+  .fixed-attachment {
+    background-attachment: scroll;
+  }
+}
+footer {
+	background-color: #333;
+	color: #ddd;
+	padding: 20px;
+	text-align: center;
+}
+
+aside {
+	background: #eee;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.char-list {
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+.char-list h4{
+	margin-bottom: 40px;
+	color: darkorange;
+	font-weight: bold;
+}
+
+.char-list a img {
+	width: 120px;
+	height: 120px;
+	max-width: 150px;
+	max-height: 150px;
+}
+
+article {
+	padding: 40px;
+}
+article img {
+	width: 100%;
+	width: 100%;
+	max-width: 1000px;
+	max-height: 450px;
+	text-align: center;
+	box-shadow: 6px 6px 8px #777;
+	margin-bottom: 20px;
+}
+
+.right-list {
+	background-color: #333;
+  padding-top: 6em;
+	padding-bottom: 40px;
+}
+
+.right-list a {
+  padding-top: 20px;
+	color: white;
+}
+.right-list a h6 {
+	margin-top: 4px;
+	margin-bottom: 15px;
+}
+.right-list a img {
+	width: 100px;
+	height: 100px;
+	max-width: 150px;
+	max-height: 150px;
+	border-radius: 15px;
+}
+.sports-list-top div {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.sports-list-top a {
+	margin-left: 30px;
+	margin-right: 30px;
+	display: inline-block;
+}
+
+/*
+Used to create same-sized columns in a multi-column layout
+*/
+
+
+@media (min-width: 768px) {
+	.container-sm-height {
+		display: table;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+  .row-sm-height {
+    display: table-row;
+  }
+  .col-sm-height {
+    display: table-cell;
+    float: none;
+  }
+
+@media (min-width: 992px) {
+  .container-md-height {
+    display: table;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .row-md-height {
+    display: table-row;
+  }
+  .col-md-height {
+    display: table-cell;
+    float: none;
+  }
+
+@media (min-width: 1200px) {
+  .container-lg-height {
+    display: table;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .row-lg-height {
+    display: table-row;
+  }
+  .col-lg-height {
+    display: table-cell;
+    float: none;
+  }
+
+/* multi-column css ends */
+
+/* columns of same height styles */

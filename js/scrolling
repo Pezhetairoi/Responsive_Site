@@ -1,0 +1,11 @@
+$(function() {
+      $(window).on('load resize', function() {
+        $('.fill-screen').css("height", window.innerHeight);
+      });
+
+      $('#video-wallpaper').wallpaper({
+        source: {
+          mp4: 'images/sample.mp4'
+        }
+      });
+    });
